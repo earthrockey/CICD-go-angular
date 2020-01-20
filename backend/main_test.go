@@ -1,4 +1,10 @@
-package main
+package backend
 
-func main() {
+import (
+	"log"
+	"testing"
+)
+
+func TestPrint(t *testing.T) {
+	log.Println("Test...")
 }
