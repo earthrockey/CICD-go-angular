@@ -1,10 +1,8 @@
 FROM golang
 
-WORKDIR /go/src/github.com/earthrockey/becon-backend
+WORKDIR /go/src/github.com/earthrockey/CICD-go-angular
 COPY . .
-RUN go get github.com/jinzhu/gorm
-RUN go get github.com/go-sql-driver/mysql
-RUN go get github.com/line/line-bot-sdk-go/linebot
+
 RUN go build -o main .
 EXPOSE 8080
 CMD ["./main"]
