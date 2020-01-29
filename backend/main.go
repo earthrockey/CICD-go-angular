@@ -1,11 +1,11 @@
-package backend
+package main
 
 import (
 	"log"
 	"net/http"
 	"os"
 
-	"./controller"
+	"github.com/earthrockey/CICD-go-angular/backend/controller"
 )
 
 func getPort() string {

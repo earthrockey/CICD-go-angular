@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	"../model"
+	"github.com/earthrockey/CICD-go-angular/backend/model"
 )
 
 func GetAllBook(w http.ResponseWriter, r *http.Request) {
