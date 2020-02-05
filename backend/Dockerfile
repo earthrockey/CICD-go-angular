@@ -1,6 +1,6 @@
 FROM golang
 
-WORKDIR /go/src/github.com/earthrockey/CICD-go-angular
+WORKDIR /go/src/github.com/earthrockey/CICD-go-angular/backend
 COPY . .
 
 RUN go build -o main .

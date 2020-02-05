@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/earthrockey/CICD-go-angular/backend/model"
+	"./model"
 )
 
 func TestOpenServer(t *testing.T) {

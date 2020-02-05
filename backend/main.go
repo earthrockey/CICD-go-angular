@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/earthrockey/CICD-go-angular/backend/controller"
+	"./controller"
 )
 
 func getPort() string {
